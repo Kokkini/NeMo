@@ -278,7 +278,7 @@ class CATER(Dataset):
 
         self._task_to_data_subdir_mapping = {
             ATOMIC_ACTION: join("lists", "actions_present"),
-            COMPOSITIONAL_ACTION: join("lists", "actions_order_unique"),
+            COMPOSITIONAL_ACTION: join("lists", "actions_order_uniq"),
             SNITCH_LOCALIZATION: join("lists", "localize"),
         }
         self._task_and_camera_motion_to_data_dir_mapping = {
